@@ -1,7 +1,10 @@
 本工具仅限技术研究与测试，严禁用于非法用途，否则产生的一切后果自行承担。
+
 #### 介绍
 
 WEB批量请求器（WebBatchRequest）是对目标地址批量进行快速的存活探测、Title获取，简单的banner识别，支持HTTP代理以及可自定义HTTP请求用于批量的漏洞验证等的一款基于JAVA编写的轻量工具。
+
+基于 https://github.com/ScriptKid-Beta/WebBatchRequest 修改而来
 
 ##### 支持功能
 
@@ -16,27 +19,24 @@ WEB批量请求器（WebBatchRequest）是对目标地址批量进行快速的�
 - [x] 自定义线程数
 - [x] 默认浏览器打开
 - [x] 列表结果排序
-- [x] 如果有什么建议需求可以在ISSUES提出来
+- [x] 增加自定义浏览器
+- [x] 增加指纹扫描功能，指纹扫描基于/EHole
+- [x] 增加响应时间选择
+- [x] 增加重试次数选择
 
 #### 效果
-![image](https://user-images.githubusercontent.com/62375108/122643486-9f901a00-d142-11eb-8cf3-cd735e8a36be.png)
-![image](https://user-images.githubusercontent.com/62375108/122658947-3f7e8f80-d1a5-11eb-9f87-4510131907ea.png)
-![image](https://user-images.githubusercontent.com/62375108/122643506-ba628e80-d142-11eb-9315-9efc8445d203.png)
-##### v1.3
-![image](https://user-images.githubusercontent.com/62375108/126460021-a7bd55ff-6b6e-4c2b-8e07-cae0261a1c83.png)
-##### v1.4
-![image](https://user-images.githubusercontent.com/62375108/141076363-7b07b391-83b5-45cd-85c0-cc074ec87028.png)
 
 
-#### 项目地址
-
-```
-https://github.com/ScriptKid-Beta/WebBatchRequest
-```
-#### Jar文件
-```
-https://github.com/ScriptKid-Beta/WebBatchRequest/releases
-```
 #### 最后
 
 欢迎师傅star，最重要的是如果师傅们有什么建议或者Bug，请在ISSUES里提出来~
+
+
+
+#### 感谢
+
+```
+https://github.com/ScriptKid-Beta/WebBatchRequest
+https://github.com/EdgeSecurityTeam/EHole
+```
+
