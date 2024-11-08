@@ -5,6 +5,7 @@
 WEB批量请求器（WebBatchRequest）是对目标地址批量进行快速的存活探测、Title获取，简单的banner识别，支持HTTP代理以及可自定义HTTP请求用于批量的漏洞验证等的一款基于JAVA编写的轻量工具。
 
 基于 https://github.com/ScriptKid-Beta/WebBatchRequest 修改而来,修复排序BUG，增加一些好用功能。
+config.properties 文件是自定义浏览器，和自定义EHole的配置文件
 
 ##### 支持功能
 
