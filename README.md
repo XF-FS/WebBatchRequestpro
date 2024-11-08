@@ -38,6 +38,7 @@ config.properties 文件是自定义浏览器，和自定义EHole的配置文件
 
 <img width="1332" alt="image" src="https://github.com/user-attachments/assets/ff027657-006f-4a3e-9c0c-be52040bc230">
 
+<img width="1286" alt="image" src="https://github.com/user-attachments/assets/49621b7e-baf8-4e96-b1ad-10fa2ccd6c01">
 
 
 
