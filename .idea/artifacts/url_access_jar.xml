@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="url_access:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/url_access_jar</output-path>
+    <root id="archive" name="URL_interview.jar">
+      <element id="module-output" name="URL_interview" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/kevinsawicki/http-request/6.0/http-request-6.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
