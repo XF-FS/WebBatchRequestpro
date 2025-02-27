@@ -32,6 +32,16 @@ config.properties 文件是自定义浏览器，和自定义EHole的配置文件
 - [x] 响应时间修复
 - [x] 线程卡死修复
 
+##### WebBatchRequest_Pro 6.*，优化UI版本
+有一位老哥提出建议说，windows UI非常丑，因为大部分时间都是mac开发，没注意到，引入了新的UI组件看起来好看多了....
+- [x] UI更现代化，方便使用
+- [x] 增加双击过的链接标记功能，更直观的显示，
+- [ ] 插件功能后续开发.....
+
+
+<img width="1286" alt="image" src="https://github.com/user-attachments/assets/1378acfc-880a-4f9a-8f4a-38399a10b94b" />
+
+
 
 #### 效果
 <img width="1293" alt="image" src="https://github.com/user-attachments/assets/12305540-2ede-4505-8a45-bc1a9ed8b32a">
