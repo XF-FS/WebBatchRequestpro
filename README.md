@@ -49,13 +49,10 @@ WebBatchRequest Pro 是一款基于Java开发的轻量级Web请求工具，主�
 
 ## 🖥 界面预览
 
-<details>
-<summary>点击查看截图</summary>
-
+![PixPin_2025-04-08_16-58-00](https://github.com/user-attachments/assets/998461f4-1c61-4df3-8ddc-1532ac0fda7e)
 ![主界面](https://github.com/user-attachments/assets/65aff233-b4d3-4fca-83a7-cae39248360d)
 ![功能展示](https://github.com/user-attachments/assets/824b4053-8e42-414e-b900-9a0663bc7d40)
 
-</details>
 
 ## 📦 配置说明
 
