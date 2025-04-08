@@ -1,67 +1,91 @@
-本工具仅限技术研究与测试，严禁用于非法用途，否则产生的一切后果自行承担。
+# WebBatchRequest Pro
 
-#### 介绍
+<p align="center">
+    <img src="https://img.shields.io/github/stars/XF-FS/WebBatchRequestpro" alt="stars">
+    <img src="https://img.shields.io/github/forks/XF-FS/WebBatchRequestpro" alt="forks">
+    <img src="https://img.shields.io/github/issues/XF-FS/WebBatchRequestpro" alt="issues">
+    <img src="https://img.shields.io/github/license/XF-FS/WebBatchRequestpro" alt="license">
+</p>
 
-WEB批量请求器（WebBatchRequest）是对目标地址批量进行快速的存活探测、Title获取，简单的banner识别，支持HTTP代理以及可自定义HTTP请求用于批量的漏洞验证等的一款基于JAVA编写的轻量工具。
+> ⚠️ 免责声明：本工具仅供安全研究和技术交流，严禁用于非法用途，否则产生的一切后果自行承担。
 
-基于 https://github.com/ScriptKid-Beta/WebBatchRequest 修改而来,修复排序BUG，增加一些好用功能。
-config.properties 文件是自定义浏览器，和自定义EHole的配置文件
+## 项目简介
 
-##### 支持功能
+WebBatchRequest Pro 是一款基于Java开发的轻量级Web请求工具，主要用于:
+- 批量网站存活性探测
+- 网站标题(Title)获取
+- Banner识别
+- HTTP代理支持
+- 批量漏洞验证
 
-- [x] 支持数据的导入、导出
-- [x] GET、POST、HEAD请求
-- [x] HTTP代理
-- [x] 自定义Header(可Host头碰撞等)
-- [x] 自定义Cookies
-- [x] 自定义User-Agent
-- [x] 跟随302跳转
-- [x] 进度条功能
-- [x] 自定义线程数
+本项目基于 [WebBatchRequest](https://github.com/ScriptKid-Beta/WebBatchRequest) 进行了重构和增强，修复了多个问题并新增了实用功能。
 
-##### 增加功能
-- [x] 默认浏览器打开
-- [x] 列表结果排序
-- [x] 增加自定义浏览器
-- [x] 增加指纹扫描功能，指纹扫描基于/EHole
-- [x] 增加响应时间选择
-- [x] 增加重试次数选择
+## ✨ 核心特性
 
-##### 修复功能
-- [x] 长度排序修复
-- [x] 响应时间修复
-- [x] 线程卡死修复
+### 基础功能
+- [x] 多种请求方式(GET/POST/HEAD)
+- [x] HTTP代理支持
+- [x] 自定义请求头(支持Host碰撞)
+- [x] Cookie自定义
+- [x] User-Agent自定义
+- [x] 重定向(301/302/303/307/308)处理
+- [x] 多线程并发请求
+- [x] 数据导入导出
 
-##### WebBatchRequest_Pro 6.*，优化UI版本
-有一位老哥提出建议说，windows UI非常丑，因为大部分时间都是mac开发，没注意到，引入了新的UI组件看起来好看多了....
-- [x] UI更现代化，方便使用
-- [x] 增加双击过的链接标记功能，更直观的显示，
-- [ ] 插件功能后续开发.....
+### 增强功能
+- [x] 现代化UI界面重构
+- [x] 自定义浏览器打开链接
+- [x] 智能结果排序
+- [x] 基于EHole的指纹识别
+- [x] 灵活的响应时间设置
+- [x] 请求重试机制
+- [x] 访问记录标记
+- [x] 空节点智能清理
 
+### 问题修复
+- [x] 修复内容长度排序异常
+- [x] 优化响应时间计算
+- [x] 解决线程阻塞问题
 
-<img width="1286" alt="image" src="https://github.com/user-attachments/assets/1378acfc-880a-4f9a-8f4a-38399a10b94b" />
+## 🖥 界面预览
 
+<details>
+<summary>点击查看截图</summary>
 
+![主界面](https://github.com/user-attachments/assets/1378acfc-880a-4f9a-8f4a-38399a10b94b)
+![功能展示](https://github.com/user-attachments/assets/12305540-2ede-4505-8a45-bc1a9ed8b32a)
+![结果展示](https://github.com/user-attachments/assets/ff027657-006f-4a3e-9c0c-be52040bc230)
 
-#### 效果
-<img width="1293" alt="image" src="https://github.com/user-attachments/assets/12305540-2ede-4505-8a45-bc1a9ed8b32a">
+</details>
 
-<img width="1332" alt="image" src="https://github.com/user-attachments/assets/ff027657-006f-4a3e-9c0c-be52040bc230">
+## 📦 配置说明
 
-<img width="1286" alt="image" src="https://github.com/user-attachments/assets/49621b7e-baf8-4e96-b1ad-10fa2ccd6c01">
-
-
-
-#### 最后
-
-欢迎师傅star，最重要的是如果师傅们有什么建议或者Bug，请在ISSUES里提出来~
-
-
-
-#### 感谢
-
+配置文件 `config.properties`:
+```properties
+browserPath=自定义浏览器路径
+eholePath=EHole工具路径
 ```
-https://github.com/ScriptKid-Beta/WebBatchRequest
-https://github.com/EdgeSecurityTeam/EHole
-```
 
+## 🚀 即将推出
+- [ ] 插件系统
+- [ ] 更多指纹库支持
+- [ ] 自定义扫描规则
+- [ ] 报告导出功能
+
+## 🤝 贡献
+
+欢迎提交 Issue 和 Pull Request。如果您有任何建议或发现了bug，请在[Issues](https://github.com/XF-FS/WebBatchRequestpro/issues)中提出。
+
+## 📄 致谢
+
+- [WebBatchRequest](https://github.com/ScriptKid-Beta/WebBatchRequest) - 原始项目
+- [EHole](https://github.com/EdgeSecurityTeam/EHole) - 指纹识别支持
+
+## 📝 许可证
+
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=XF-FS/WebBatchRequestpro&type=Date)](https://star-history.com/?utm_source=bestxtools.com#XF-FS/WebBatchRequestpro&Date)
+
+> ⚠️ 免责声明：本工具仅供安全研究和技术交流，严禁用于非法用途，否则产生的一切后果自行承担。
