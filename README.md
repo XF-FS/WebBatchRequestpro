@@ -11,7 +11,7 @@
 
 ## 项目简介
 
-WebBatchRequest Pro 是一款基于Java开发的轻量级Web请求工具，主要用于:
+WEB批量请求器（WebBatchRequest）是对目标地址批量进行快速的存活探测、Title获取，简单的banner识别，支持HTTP/SOCKS5代理以及可自定义HTTP请求用于批量的漏洞验证等的一款基于JAVA编写的轻量工具。
 - 批量网站存活性探测
 - 网站标题(Title)获取
 - Banner识别
@@ -23,35 +23,65 @@ WebBatchRequest Pro 是一款基于Java开发的轻量级Web请求工具，主�
 ## ✨ 核心特性
 
 ### 基础功能
-- [x] 多种请求方式(GET/POST/HEAD)
-- [x] HTTP代理支持
-- [x] 自定义请求头(支持Host碰撞)
-- [x] Cookie自定义
-- [x] User-Agent自定义
-- [x] 重定向(301/302/303/307/308)处理
-- [x] 多线程并发请求
-- [x] 数据导入导出
+- [x] 支持数据的导入、导出
+- [x] GET、POST、HEAD请求
+- [x] HTTP代理
+- [x] **SOCKS5代理支持**（新增）
+- [x] 自定义Header(可Host头碰撞等)
+- [x] 自定义Cookies
+- [x] 自定义User-Agent
+- [x] 跟随302跳转
+- [x] 进度条功能
+- [x] 自定义线程数
+- [x] 默认浏览器打开
+- [x] 列表结果排序
+- [x] 增加自定义浏览器
+- [x] 增加指纹扫描功能，指纹扫描基于/EHole
+- [x] 增加响应时间选择
+- [x] 增加重试次数选择
+- [x] **网页源码搜索功能**（新增）
+- [x] **颜色过滤功能**（新增）
 
-### 增强功能
-- [x] 现代化UI界面重构
-- [x] 自定义浏览器打开链接
-- [x] 智能结果排序
-- [x] 基于EHole的指纹识别
-- [x] 灵活的响应时间设置
-- [x] 请求重试机制
-- [x] 访问记录标记
-- [x] 空节点智能清理
+### 新增功能详细说明
 
-### 问题修复
-- [x] 修复内容长度排序异常
-- [x] 优化响应时间计算
-- [x] 解决线程阻塞问题
+#### SOCKS5代理支持
+- 在代理设置中新增代理类型选择（HTTP/SOCKS5）
+- SOCKS5代理仅需提供IP地址和端口，无需密码认证
+- 支持通过SOCKS5代理进行所有HTTP请求
+
+#### 网页源码搜索功能
+- 在顶部菜单栏右侧新增搜索框和搜索按钮
+- 可以搜索所有表格行的网页源码内容
+- 匹配的行会以红色背景高亮显示
+- 支持大小写不敏感搜索
+- 显示搜索结果统计信息
+
+#### 颜色过滤功能
+- 在搜索框左侧新增颜色过滤下拉框
+- 支持按背景颜色过滤表格行：
+  - **无**：显示所有行
+  - **红色**：仅显示搜索匹配的行（红色背景）
+  - **灰色**：仅显示已点击访问的行（灰色背景）
+- 实时过滤，提高结果查看效率
+
 
 ## 🖥 界面预览
 
-![PixPin_2025-04-08_16-58-00](https://github.com/user-attachments/assets/998461f4-1c61-4df3-8ddc-1532ac0fda7e)
-![主界面](https://github.com/user-attachments/assets/65aff233-b4d3-4fca-83a7-cae39248360d)
-![功能展示](https://github.com/user-attachments/assets/824b4053-8e42-414e-b900-9a0663bc7d40)
+<img width="2500" height="1640" alt="PixPin_2025-07-26_13-12-36" src="https://github.com/user-attachments/assets/ae171783-80bd-42f3-831a-78bcea061084" />
+
+## 访问标记
+
+<img width="2500" height="1640" alt="PixPin_2025-07-26_13-15-51" src="https://github.com/user-attachments/assets/04a190d2-0a05-4364-9604-b0cc0786d1f1" />
+
+## 内容搜索，颜色标记，颜色过滤
+
+<img width="2500" height="1640" alt="PixPin_2025-07-26_13-16-43" src="https://github.com/user-attachments/assets/d6fdb82b-c92d-4e1a-8bdc-650dfe7ff0cd" />
+
+## 插件扫描（预支持）
+
+<img width="2500" height="1640" alt="PixPin_2025-07-26_13-17-44" src="https://github.com/user-attachments/assets/09080a55-9a89-4350-85d9-4acca7758254" />
+
+
 
 
 ## 📦 配置说明
