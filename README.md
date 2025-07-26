@@ -1,4 +1,4 @@
-# WebBatchRequest Pro
+# WebBatchRequest Pro（WebBatchAccess）
 
 <p align="center">
     <img src="https://img.shields.io/github/stars/XF-FS/WebBatchRequestpro" alt="stars">
